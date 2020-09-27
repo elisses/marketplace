@@ -3,42 +3,132 @@
         {
             "id": 1,
             "nomePlano": "Telefone",
-            "idTipoPlano": 1
+            "TiposPlano": [
+                {
+                    "id": 1,
+                    "nomeTipoPlano": "Anual",
+                    "precoTipoPlano": 1000,
+                    "qtdDestaque": 20,
+                    "qtdAnuncio": 30
+                },
+                {
+                    "id": 2,
+                    "nomeTipoPlano": "Mensal",
+                    "precoTipoPlano": 50,
+                    "qtdDestaque": 2,
+                    "qtdAnuncio": 10
+                }
+            ]
         },
         {
             "id": 2,
             "nomePlano": "Viajem",
-            "idTipoPlano": 2
+            "TiposPlano": [
+                {
+                    "id": 1,
+                    "nomeTipoPlano": "Anual",
+                    "precoTipoPlano": 1000,
+                    "qtdDestaque": 20,
+                    "qtdAnuncio": 30
+                }
+            ]
         },
         {
             "id": 3,
             "nomePlano": "Lazer",
-            "idTipoPlano": 2
+            "TiposPlano": []
         },
         {
             "id": 4,
             "nomePlano": "TV",
-            "idTipoPlano": 3
+            "TiposPlano": [
+                {
+                    "id": 1,
+                    "nomeTipoPlano": "Anual",
+                    "precoTipoPlano": 1000,
+                    "qtdDestaque": 20,
+                    "qtdAnuncio": 30
+                },
+                {
+                    "id": 2,
+                    "nomeTipoPlano": "Mensal",
+                    "precoTipoPlano": 50,
+                    "qtdDestaque": 2,
+                    "qtdAnuncio": 10
+                },
+                {
+                    "id": 3,
+                    "nomeTipoPlano": "Promo",
+                    "precoTipoPlano": 200,
+                    "qtdDestaque": 15,
+                    "qtdAnuncio": 10
+                }
+            ]
         },
         {
             "id": 5,
             "nomePlano": "Celular",
-            "idTipoPlano": ""
+            "TiposPlano": [
+                {
+                    "id": 1,
+                    "nomeTipoPlano": "Anual",
+                    "precoTipoPlano": 1000,
+                    "qtdDestaque": 20,
+                    "qtdAnuncio": 30
+                },
+                {
+                    "id": 2,
+                    "nomeTipoPlano": "Mensal",
+                    "precoTipoPlano": 50,
+                    "qtdDestaque": 2,
+                    "qtdAnuncio": 10
+                },
+                {
+                    "id": 3,
+                    "nomeTipoPlano": "Promo",
+                    "precoTipoPlano": 200,
+                    "qtdDestaque": 15,
+                    "qtdAnuncio": 10
+                }
+            ]
         },
         {
             "id": 6,
             "nomePlano": "Cinema",
-            "idTipoPlano": ""
+            "TiposPlano": [
+                {
+                    "id": 1,
+                    "nomeTipoPlano": "Anual",
+                    "precoTipoPlano": 1000,
+                    "qtdDestaque": 20,
+                    "qtdAnuncio": 30
+                },
+                {
+                    "id": 2,
+                    "nomeTipoPlano": "Mensal",
+                    "precoTipoPlano": 50,
+                    "qtdDestaque": 2,
+                    "qtdAnuncio": 10
+                }
+            ]
         },
         {
             "id": 7,
             "nomePlano": "Comida",
-            "idTipoPlano": ""
+            "TiposPlano": [
+                {
+                    "id": 3,
+                    "nomeTipoPlano": "Promo",
+                    "precoTipoPlano": 200,
+                    "qtdDestaque": 15,
+                    "qtdAnuncio": 10
+                }
+            ]
         },
         {
             "id": 8,
             "nomePlano": "Carro",
-            "idTipoPlano": 2
+            "TiposPlano": []
         }
     ],
     "tipoDePlanos": [
@@ -59,6 +149,20 @@
         {
             "id": 3,
             "nomeTipoPlano": "Promo",
+            "precoTipoPlano": 200,
+            "qtdDestaque": 15,
+            "qtdAnuncio": 10
+        },
+        {
+            "id": 4,
+            "nomeTipoPlano": "Plano300",
+            "precoTipoPlano": 200,
+            "qtdDestaque": 15,
+            "qtdAnuncio": 10
+        },
+        {
+            "id": 5,
+            "nomeTipoPlano": "Plano200",
             "precoTipoPlano": 200,
             "qtdDestaque": 15,
             "qtdAnuncio": 10
